@@ -1,0 +1,20 @@
+{
+    "name": "xuqingfeng/holiday",
+    "description": "[ holidays stuff ]",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "xuqingfeng",
+            "email": "js-xqf@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "xuqingfeng\\" : "src"
+        }
+    }
+}
