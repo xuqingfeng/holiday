@@ -19,7 +19,52 @@ ugly hard coded holiday date in our site.
 
 ###How
 
-TODO
+```php
+    /**
+     * @param array $params
+     * @return mixed
+     *
+     * month-required
+     * year-required
+     * country-required
+     * region-optional
+     */
+    public function getPublicHolidays4Month(array $params)
+
+    /**
+     * @param array $params
+     * @return mixed
+     *
+     * year-required
+     * country-required
+     */
+    public function getPublicHolidays4Year(array $params)
+
+    /**
+     * @param array $params
+     * @return mixed
+     *
+     * fromDate-required
+     * toDate-required
+     * country-required
+     * region-optional
+     */
+    public function getPublicHolidays4DateRange(array $params)
+
+    /**
+     * @param array $params
+     * @return mixed
+     *
+     * date-required
+     * country-required
+     */
+    public function isPublicHoliday(array $params)
+
+    /**
+     * @return mixed
+     */
+    public function getSupportedCountries()
+```
 
 ###Test
 
