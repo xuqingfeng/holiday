@@ -66,6 +66,8 @@ ugly hard coded holiday date in our site.
     public function getSupportedCountries()
 ```
 
+Want to dig deep ? :point_right: [doc](http://kayaposoft.com/enrico/json/)
+
 ###Test
 
 `phpunit .`
