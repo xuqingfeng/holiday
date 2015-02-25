@@ -27,7 +27,7 @@ TODO
 
 ###Thanks
 
-[enrico (holiday api)](http://kayaposoft.com/enrico/)
+[enrico](http://kayaposoft.com/enrico/)  (api)
 
 ###License
 
