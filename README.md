@@ -1,13 +1,13 @@
-##holiday
+## holiday
 
 ![travis](https://travis-ci.org/xuqingfeng/holiday.svg)
 
-###Motivation
+### Motivation
 
 ugly hard coded holiday date in our site.
 
-###Install
->via composer
+### Install
+> via composer
 
 ```
 {
@@ -17,7 +17,7 @@ ugly hard coded holiday date in our site.
 }
 ```
 
-###How
+### How
 
 ```php
     /**
@@ -68,16 +68,16 @@ ugly hard coded holiday date in our site.
 
 Want to dig deep ? :point_right: [doc](http://kayaposoft.com/enrico/json/)
 
-###Test
+### Test
 
 `phpunit .`
 
-###Thanks
+### Thanks
 
 [enrico](http://kayaposoft.com/enrico/)  (api)
 
-###License
+### License
 
-GPLv3
+MIT
 
 
